@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>ssh密钥 | 灯火&amp;扁舟</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="github-ssh 1.创建ssh密钥文件 或 ssh-keygen -t rsa -b 4096 -C “完整的邮箱地址” -f ~&#x2F;.ssh&#x2F;id_rsa_ambition  ssh-keygen -t rsa -b 4096 -C &quot;完整的邮箱地址&quot; -f C:\Users\ambition\.ssh\id_rsa_ambition  ssh-key">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ssh密钥">
+<meta property="og:url" content="https://wu4sky.github.io/2025/01/22/github-ssh/index.html">
+<meta property="og:site_name" content="灯火&amp;扁舟">
+<meta property="og:description" content="github-ssh 1.创建ssh密钥文件 或 ssh-keygen -t rsa -b 4096 -C “完整的邮箱地址” -f ~&#x2F;.ssh&#x2F;id_rsa_ambition  ssh-keygen -t rsa -b 4096 -C &quot;完整的邮箱地址&quot; -f C:\Users\ambition\.ssh\id_rsa_ambition  ssh-key">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://wu4sky.github.io/github-ssh/image-20250123112728946.png">
+<meta property="og:image" content="https://wu4sky.github.io/github-ssh/image-20250123113038376.png">
+<meta property="og:image" content="https://wu4sky.github.io/github-ssh/image-20250123112938413.png">
+<meta property="og:image" content="https://wu4sky.github.io/github-ssh/image-20250123113153722.png">
+<meta property="og:image" content="https://wu4sky.github.io/github-ssh/image-20250123113224161.png">
+<meta property="article:published_time" content="2025-01-22T07:41:57.000Z">
+<meta property="article:modified_time" content="2025-01-22T07:41:57.000Z">
+<meta property="article:author" content="吾">
+<meta property="article:tag" content="乄">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://wu4sky.github.io/github-ssh/image-20250123112728946.png">
+  
+    <link rel="alternate" href="/atom.xml" title="灯火&扁舟" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">灯火&amp;扁舟</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">吾的小记</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://wu4sky.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-github-ssh" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2025/01/22/github-ssh/" class="article-date">
+  <time class="dt-published" datetime="2025-01-22T07:41:57.000Z" itemprop="datePublished">2025-01-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      ssh密钥
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>github-ssh</p>
+<p>1.创建ssh密钥文件</p>
+<p>或 ssh-keygen -t rsa -b 4096 -C “完整的邮箱地址” -f ~&#x2F;.ssh&#x2F;id_rsa_ambition</p>
+<pre><code> ssh-keygen -t rsa -b 4096 -C &quot;完整的邮箱地址&quot; -f C:\Users\ambition\.ssh\id_rsa_ambition
+</code></pre>
+<p>ssh-keygen -t rsa -C “GitHub邮箱” ,三此确认</p>
+<p><img src="/../github-ssh/image-20250123112728946.png" alt="image-20250123112728946"></p>
+<p><img src="/../github-ssh/image-20250123113038376.png" alt="image-20250123113038376"></p>
+<p><img src="/../github-ssh/image-20250123112938413.png" alt="image-20250123112938413"></p>
+<p>2.获取公用密码上传github</p>
+<p>径 C:\Users${name}&#x2F;.ssh&#x2F;id_rsa.pub，并用记事本打开，将内容复制</p>
+<p>3.github 的SSH and GPG keys ，点击 New SSH key 创建新的秘钥</p>
+<p>4.测试是否连接 </p>
+<p>​	ssh -T <a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#111;&#109;">&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#99;&#111;&#109;</a></p>
+<p><img src="/../github-ssh/image-20250123113153722.png" alt="image-20250123113153722"></p>
+<p><img src="/../github-ssh/image-20250123113224161.png" alt="image-20250123113224161"></p>
+<p>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#116;&#x2e;&#x61;&#109;&#x62;&#x69;&#116;&#105;&#111;&#x6e;&#x2d;&#x73;&#x6f;&#x66;&#116;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#116;&#x2e;&#x61;&#109;&#x62;&#x69;&#116;&#105;&#111;&#x6e;&#x2d;&#x73;&#x6f;&#x66;&#116;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>ssh -i C:\Users&lt;YourUsername&gt;.ssh\id_rsa_ambition <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#x69;&#116;&#46;&#x61;&#109;&#x62;&#x69;&#116;&#105;&#111;&#110;&#x2d;&#x73;&#x6f;&#102;&#x74;&#46;&#99;&#x6f;&#109;">&#103;&#105;&#x74;&#64;&#103;&#x69;&#116;&#46;&#x61;&#109;&#x62;&#x69;&#116;&#105;&#111;&#110;&#x2d;&#x73;&#x6f;&#102;&#x74;&#46;&#99;&#x6f;&#109;</a></p>
+<p>多个秘钥</p>
+<p>创建 config文件</p>
+<p>Host git.xxx.cn</p>
+<p>HostName git.xxx.cn</p>
+<p> User git</p>
+<p>IdentityFile ~&#x2F;.ssh&#x2F;对应私有密钥</p>
+<p>IdentitiesOnly yes</p>
+<p>#配置 git.ambition-soft.com ssh -T <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#x69;&#116;&#x2e;&#x61;&#109;&#98;&#105;&#x74;&#105;&#111;&#x6e;&#45;&#115;&#x6f;&#102;&#116;&#46;&#99;&#111;&#109;">&#103;&#105;&#x74;&#64;&#103;&#x69;&#116;&#x2e;&#x61;&#109;&#98;&#105;&#x74;&#105;&#111;&#x6e;&#45;&#115;&#x6f;&#102;&#116;&#46;&#99;&#111;&#109;</a></p>
+<p>Host git.ambition-soft.com<br>  HostName git.ambition-soft.com<br>  User git<br>  IdentityFile ~&#x2F;.ssh&#x2F;id_rsa_ambition<br>  IdentitiesOnly yes</p>
+<p>配置 <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#111;&#x6d;</a> ssh -T <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;">&#103;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>Host github.com<br>  HostName github.com<br>  User git<br>  IdentityFile ~&#x2F;.ssh&#x2F;id_rsa<br>  IdentitiesOnly yes</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wu4sky.github.io/2025/01/22/github-ssh/" data-id="cm693bxdl00009ctlbozpes7v" data-title="ssh密钥" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2025/01/23/search/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          search
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2025/01/22/test1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">test1</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/11/">十一月 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2025/01/23/search/">search</a>
+          </li>
+        
+          <li>
+            <a href="/2025/01/22/github-ssh/">ssh密钥</a>
+          </li>
+        
+          <li>
+            <a href="/2025/01/22/test1/">test1</a>
+          </li>
+        
+          <li>
+            <a href="/2024/11/28/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2025 吾<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
