@@ -19,17 +19,17 @@
   <meta name="author" content="吾">
   <meta name="keywords" content="乄">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.欢迎来到 H">
+    <meta name="description" content="hexo博客使用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
 <meta property="og:url" content="https://wu4sky.github.io/2024/11/28/hello-world/index.html">
 <meta property="og:site_name" content="灯火&amp;扁舟">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.欢迎来到 H">
+<meta property="og:description" content="hexo博客使用">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-28T08:34:04.619Z">
-<meta property="article:modified_time" content="2024-11-28T08:27:19.224Z">
+<meta property="article:modified_time" content="2025-01-24T15:04:14.502Z">
 <meta property="article:author" content="吾">
-<meta property="article:tag" content="乄">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -223,7 +223,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          99 字
+          103 字
         
       </span>
     
@@ -288,7 +288,7 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+<h2 id="hexo-项目搭建"><a href="#hexo-项目搭建" class="headerlink" title="hexo 项目搭建"></a>hexo 项目搭建</h2>
                 
               </div>
             
@@ -296,6 +296,34 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/hexo/" class="category-chain-item">hexo</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/hexo/" class="print-no-link">#hexo</a>
+      
+    </div>
   
 </div>
 
@@ -350,9 +378,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/01/22/test1/" title="图片&amp;排除查询">
+                      <a href="/2025/01/22/github-ssh/" title="ssh密钥">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">图片&amp;排除查询</span>
+                        <span class="hidden-mobile">ssh密钥</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -366,6 +394,50 @@
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+    <div id="giscus" class="giscus"></div>
+    <script type="text/javascript">
+      Fluid.utils.loadComments('#giscus', function() {
+        var options = {"repo":"wu4sky/comment-giscus","repo-id":"R_kgDONu91mg","category":"Announcements","category-id":"DIC_kwDONu91ms4CmTcL","theme-light":"light","theme-dark":"dark","mapping":"pathname","reactions-enabled":1,"emit-metadata":0,"input-position":"top","lang":"zh-CN","enable":true};
+        var attributes = {};
+        for (let option in options) {
+          if (!option.startsWith('theme-')) {
+            var key = option.startsWith('data-') ? option : 'data-' + option;
+            attributes[key] = options[option];
+          }
+        }
+        var light = 'light';
+        var dark = 'dark';
+        window.GiscusThemeLight = light;
+        window.GiscusThemeDark = dark;
+        attributes['data-theme'] = document.documentElement.getAttribute('data-user-color-scheme') === 'dark' ? dark : light;
+        for (let attribute in attributes) {
+          var value = attributes[attribute];
+          if (value === undefined || value === null || value === '') {
+            delete attributes[attribute];
+          }
+        }
+        var s = document.createElement('script');
+        s.setAttribute('src', 'https://giscus.app/client.js');
+        s.setAttribute('crossorigin', 'anonymous');
+        for (let attribute in attributes) {
+          s.setAttribute(attribute, attributes[attribute]);
+        }
+        var ss = document.getElementsByTagName('script');
+        var e = ss.length > 0 ? ss[ss.length - 1] : document.head || document.documentElement;
+        e.parentNode.insertBefore(s, e.nextSibling);
+      });
+    </script>
+    <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
@@ -452,13 +524,19 @@
     
 
     
+      <div class="col-lg-7 mx-auto nopadding-x-md">
+        <div class="container custom mx-auto">
+          <script src="https://giscus.app/client.js" data-repo="wu4sky/comment-giscus" data-repo-id="R_kgDONu91mg" data-category="Announcements" data-category-id="DIC_kwDONu91ms4CmTcL" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async> </script>
+        </div>
+      </div>
+    
   </main>
 
   <footer>
     <div class="footer-inner">
   
     <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+       <div style="margin-top:100px"> <a href="https://wu4sky.github.io/" target="_blank" rel="nofollow noopener"><span>午夜</span></a> <i class="iconfont icon-love"></i> <span> </div> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
     </div>
   
   
