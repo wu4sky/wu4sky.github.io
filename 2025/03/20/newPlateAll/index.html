@@ -27,6 +27,7 @@
 <meta property="og:description" content="Vue2,Node.js(v14小版本号不能超过20),Yarn,Python2.7.18,Maven3.6,PC端UI使用ElmentUI,Mobile端UI使用Quasar的新技术">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://wu4sky.github.io/newPlateAll/image-20250320170701674.png">
+<meta property="og:image" content="https://wu4sky.github.io/newPlateAll/image-20250327115827378.png">
 <meta property="og:image" content="https://wu4sky.github.io/newPlateAll/image-20250321175946185.png">
 <meta property="og:image" content="https://wu4sky.github.io/newPlateAll/image-20250321180651707.png">
 <meta property="og:image" content="https://wu4sky.github.io/newPlateAll/image-20250321181053543.png">
@@ -315,7 +316,11 @@
 
 
 <p>5.台账跳转子台账</p>
-<p>需设置对应的字段的-“配置格式”。附加参数的方法：parentId&#x3D;${obj.ID}&amp;modelDataTableCode&#x3D;JWQ_SAMPLE_SIGNING_DEPARTMENT</p>
+<p>需设置对应的字段的-“配置格式”。附加参数的方法：parentId&#x3D;${obj.ID}</p>
+<p>​	对应子表上的外键设置 请求默认值： ${request.parentId}</p>
+<p>子表台账设置过滤条件：</p>
+<p><img src="/../newPlateAll/image-20250327115827378.png" srcset="/img/loading.gif" lazyload alt="image-20250327115827378"></p>
+<p>父表台账对应字段设置超链接，添加附加参数</p>
 <p><img src="/../newPlateAll/image-20250321175946185.png" srcset="/img/loading.gif" lazyload alt="image-20250321175946185"></p>
 <p>6.台账附件上传配置</p>
 <p>新平台的附件需：两个字段，1附件名称，2附件ID</p>
